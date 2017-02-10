@@ -1,0 +1,311 @@
+/*
+
+ Theme Name:   Uncode Child
+ Description:  Uncode Child Theme
+ Author:       Ito
+ Author URI:   http://www.ito.lt/
+ Template:     uncode
+ Version:      1.0.0
+ Text Domain:  uncode-child
+
+*/
+
+body{
+   background: #fff !important;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/*---------------------Admin class------------------------*/
+
+
+.text-font-page-vedio p{
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.text-font-page-vedio{
+    max-width: 785px;
+    margin: auto;
+}
+
+
+.orange-link{
+    color: #ff9933;
+    font-size: 24x;
+    font-weight: 500;
+}
+
+
+/*---------------------Featured items------------------------*/
+
+
+.fietured-img-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    background-color: #f8f8f8;
+    padding: 60px 0 10px;
+    flex-wrap: wrap;
+}
+
+.icon-item{
+    display: flex;
+    align-items: flex-start;
+    flex: 1 1 30.33%;
+    margin-left: 30px;
+    max-width: 33%;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+h3.item-text{
+    margin: 0;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.icon-img-wrap{
+    padding-right: 17px;
+    min-width: 67px;
+    min-width: 60px;
+}
+
+
+/*-------------------Featured full width block--------------*/
+
+
+.featured-title{
+    font-size: 28px;
+    font-weight: 500;
+    color: #232323;
+}
+
+.featured-content{
+    font-size: 24px;
+    color: #535353;
+    max-width: 550px;
+    margin-bottom: 45px;
+}
+
+.featured-content p{
+    line-height: 22px;
+}
+
+.featured-btn a{
+    background: #7f9dc0;
+    padding: 16px;
+    color: #f9fafc;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    
+}
+
+.featured-block-wrap{
+    display: flex;
+}
+
+.block-content{
+    position: absolute;
+    right: 0;
+    top: 0px;
+    height: 100%;
+    background: url('includes/img/fieturd-bg.png');
+}
+
+.block-img{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 600px;
+    overflow: hidden;
+}
+
+.featured-block-wrap .block-img.img-right{
+    right: 0;
+    left: auto;
+}
+
+.featured-block-wrap .block-content.content-right{
+    left: 0;
+    right: auto;
+}
+
+
+.block-img img{
+    max-width: none;
+}
+
+
+.down-btn{
+    width: 100%;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+
+.down-btn a{
+    font-size: 28px;
+    color: #989898;
+}
+
+.featured-block-wrap{
+    position: relative;
+    height: 430px;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+
+
+
+/*-------------------Featured full width block two-col--------------*/
+
+
+.two-col{
+    float: left;
+    width: 48%;
+    margin-bottom: 20px;
+}
+
+.two-col:nth-child(even){
+    margin-left: 1%;
+}
+
+.two-col:nth-child(odd){
+    margin-right: 1%;
+}
+
+.clear{
+    clear: both;
+}
+
+.two-col-img-wrap{
+    position: relative;
+    height: 700px;
+    overflow: hidden;
+}
+
+.two-col-img-wrap img{
+    position: absolute;
+    max-width: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.inner-conntent-wrap{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 40px 20px;
+    background: url(includes/img/background-two.png);
+    background-size: cover;
+}
+
+
+.inner-conntent-wrap .featured-title{
+    margin-top: auto;
+}
+
+/*---------------------------CORE----------------------*/
+
+.btn,
+.btn-link {
+    padding: 10px 15px !important;
+}
+
+.menu-btn-table .login-btn,
+.menu-btn-table .contact-btn{
+    transition: background, 0.3s;
+}
+
+.menu-btn-table .login-btn{
+    border: 1px solid #7f9dc0;
+    color: #7f9dc0;
+    padding: 10px 15px !important;
+}
+
+.menu-btn-table .contact-btn{
+    background: #7f9dc0;
+    border: none;
+    color: #fff;
+    padding: 10px 15px !important;
+}
+
+.menu-btn-table .login-btn span{
+    background: none;
+    transition: color, 0.3s;
+}
+
+.menu-btn-table .contact-btn:hover,
+.menu-btn-table .login-btn:hover{
+    background: #003d82;
+}
+
+.menu-btn-table .login-btn:hover span{
+    background: transparent;
+    color: #fff;
+}
+
+/*Footer*/
+footer .style-dark-bg{
+    background-color: #003d82;
+    color: #fff;
+}
+
+footer .footer-last .uncell{
+    padding: 0;
+    color: #a3b0c7;
+}
+
+/*Menu*/
+ul.menu-top-menu li{
+    color: #7f7f7f;
+}
+
+ul.menu-light .menu-smart a{
+    color: #7f7f7f;
+}
+
+#menu-bottom-menu{
+    margin-top: 0;
+    padding-top: 30px;
+}
+
+#menu-bottom-menu li{
+    display: inline-block;
+    margin-left: 30px;
+}
+
+#menu-bottom-menu li:first-child{
+    margin-left: 0;
+}
+
+#menu-bottom-menu li a{
+    text-transform: uppercase;
+    color: #a3b0c7;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+#menu-bottom-menu li a:hover{
+    color: #fff;
+}
+
+#slider{
+    padding: 0;
+}
+
+#slider-wrap{
+    background: #fff;
+}
+
+
